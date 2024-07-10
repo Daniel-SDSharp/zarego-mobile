@@ -51,9 +51,7 @@ const LeadershipData: React.FC<LeadershipDataProps> = ({ selectedCountries }) =>
               <Text style={styles.cell}>{item.performance_oriented}</Text>
               <Text style={styles.cell}>{item.autocratic}</Text>
               <Text style={styles.cell}>{item.modesty}</Text>
-              <Text style={styles.cell}>{item.country_cluster}</Text>
               <Text style={styles.cell}>{item.charisma}</Text>
-              <Text style={styles.cell}>{item.decisive}</Text>
             </View>
           )}
           ListHeaderComponent={() => (
@@ -61,10 +59,8 @@ const LeadershipData: React.FC<LeadershipDataProps> = ({ selectedCountries }) =>
               <Text style={styles.header}>Country Name</Text>
               <Text style={styles.header}>Performance</Text>
               <Text style={styles.header}>Autocratic</Text>
-              <Text style={styles.header}>Modesty</Text>
-              <Text style={styles.header}>Country Cluster</Text>
-              <Text style={styles.header}>Charisma</Text>
-              <Text style={styles.header}>Decisive</Text>
+              <Text style={styles.header}>Face Saver</Text>
+              <Text style={styles.header}>Diplomatic</Text>
             </View>
           )}
         />
