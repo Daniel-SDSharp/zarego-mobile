@@ -105,7 +105,7 @@ const styles = StyleSheet.create({
   },
   cell: {
     paddingVertical: 4,
-    fontSize: 9,
+    fontSize: 10,
     flex: 1,
     textAlign: 'center',
     borderLeftWidth: 1,
@@ -116,6 +116,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontWeight: 'bold',
     fontSize: 9,
+    paddingVertical: 8,
     borderLeftWidth: 1,
     borderTopWidth: 1,
     borderColor: '#ddd',
